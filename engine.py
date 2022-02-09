@@ -3,6 +3,7 @@ import sys
 import time
 import torch
 
+import torchvision
 import torchvision.models.detection.mask_rcnn
 
 from coco_utils import get_coco_api_from_dataset
